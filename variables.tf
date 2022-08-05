@@ -1,9 +1,6 @@
 variable "project_id" {
     type= string
 }
-variable "project_id2" {
-    type = string
-}
 variable "network" {
   type = string
 }
@@ -14,9 +11,6 @@ variable "region" {
     type = string
 }
 variable "google_apigee_environment" {
-    type = string
-}
-variable "google_apigee_envgroup" {
     type = string
 }
 variable "google_apigee_instance" {
